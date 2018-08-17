@@ -1,0 +1,2 @@
+Prefix plugins/SpearmanTies/example/
+Plugin SpearmanTies inputfile abundN.csv outputfile corrP.spearman.ties.csv
