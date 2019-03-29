@@ -14,14 +14,14 @@ class SpearmanTiesPlugin:
       self.bacteria = self.firstline.split(',')
       if (self.bacteria.count('\"\"') != 0):
          self.bacteria.remove('\"\"')
-      print self.bacteria
+      #print self.bacteria
       self.n = len(self.bacteria)
       self.ADJ = []
       i = 0
-      print self.n
+      #print self.n
       for line in filestuff:
          contents = line.split(',')
-	 self.ADJ.append([])
+         self.ADJ.append([])
          for j in range(self.n):
             value = float(contents[j+1])
             self.ADJ[i].append(value)
