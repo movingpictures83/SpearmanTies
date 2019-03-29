@@ -2,7 +2,7 @@
 # Language: Python
 # Input: CSV (abundances)
 # Output: CSV (correlations)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.0, Python 3.6
 
 PluMA plugin to compute Spearman correlations (Spearman, 1904) with
 a built-in method for handling ties.
