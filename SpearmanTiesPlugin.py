@@ -64,7 +64,7 @@ class SpearmanTiesPlugin:
                   corr[k][j] = sum_num / math.sqrt(sum_denom_x * sum_denom_y) 
                   if (abs(corr[k][j]) < 1):
                      pval = 2*scipy.stats.norm.cdf(-abs(math.sqrt((self.m-3)/1.06)*math.atanh(corr[k][j])))
-                     if (pval > 0.05):
+                     if (pval > 0.01):
                         corr[k][j] = 0
 
       filestuff2 = open(filename, 'w')
